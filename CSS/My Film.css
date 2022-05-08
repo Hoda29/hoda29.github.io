@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(19, 20, 40);
+}
+h1{
+    color: rgb(255, 196, 0);
+    text-align: center;
+    text-shadow: 3px 1px red;
+    word-spacing: 5px;
+}
+.php{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+.nav{
+    height: 30px;
+  margin-left: -5px;
+  background-color: rgb(53, 220, 67);
+}
+.nav a{
+    color: rgb(166, 126, 52);
+    text-decoration: none;
+    font-size:x-large;
+    margin-left: 100px;
+}
+.mmm{
+    color: #f6ff00;
+    margin-left: 10px;
+}
+video{
+    width: 200px;
+    height: 200px;
+    margin-top: -17px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+div{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: lightblue;
+    position: relative;
+}
+p{
+    color: #fff;
+}
+.photo{
+    color: rgb(239, 231, 4);
+    background-color: rgb(0, 84, 84);
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.m{
+    width: 110px;
+    height: 110px;
+    margin: 50px;
+    margin-left: 90px;
+}
+.video{
+    margin-left: -7px;
+    background-color: rgb(0, 0, 0);
+}
+.one
+{
+    background-color:#87a9c433;
+}
+details{
+    color: rgb(51, 211, 125);
+    font-size: large;
+    margin-left: 10px;
+    background-color:rgb(50, 25, 138);
+}
+iframe{
+    width: 350px;
+    right: -220px;
+    position: relative;
+}
+details p{
+    margin: 10px;
+    margin-top: -5px;
+    
+}
+section nav{
+    color: #fff;
+    position: relative; 
+}
+pre
+{
+    color: rgb(255, 196, 0)
+}
+audio{
+    width: 700px;
+}
+.pc{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: -10px;
+    display: inline-block;
+}
+.hrr{
+    display: inline-block;
+    margin-left: 5px;
+    width: 75px;
+}
+.actors{
+    margin: 10px;
+    margin-left: -3px;
+}
+.actors img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    margin: 100px;
+}
+.footer{
+    color: rgb(26, 24, 44);
+    width: 750px;
+    height: 100px;
+    margin: 10px;
+}
+.link{
+    color: #f6ff00;
+}
+.face,
+.google,
+.in {
+    padding: 50px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.vvv ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(229, 251, 58);
+  }
+  
+.vvv  li {
+    float: left;
+    border:1px solid #bbb;
+    width : 30%;
+  }
+.vvv li a {
+    display: block;
+    color: rgb(126, 62, 186);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+.vvv{
+      width: 100%;
+  }

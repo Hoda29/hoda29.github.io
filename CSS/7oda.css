@@ -1,0 +1,24 @@
+table{
+    width: 75%;
+    border-spacing: 6px ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table td{
+    padding: 50px;
+    background-color: #EEE;
+}
+table thead td{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    
+}
+.w{
+    font-size: 100px;
+    color: blue;
+}
+.y{
+    font-size: 100px;
+    color: yellowgreen;
+}

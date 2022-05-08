@@ -1,0 +1,191 @@
+html {
+    background-color: black;
+}
+.silo {
+ background-image: url(..//Media/aaaaaa.jpeg);
+background-size: auto;
+height: 600px;
+margin: 10px auto;
+
+
+}
+.form {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+.fname,
+.email,
+.pass {
+    padding: 1px 15px 1px 25px ;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 5px #b1acac;
+}
+.sub {
+
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+    background-color: #1ba94c;
+    outline: none;
+    border: 1px solid #179342;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    left: 200px;
+} 
+
+ .sub p,
+ .sog,
+ .log,
+ .sig {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 170%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    text-decoration: none;
+} 
+.con {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.face,
+.google,
+.in {
+    padding: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.fn,
+.em,
+.pa {
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    font-size: 170%;
+    font-family: 'Roboto', sans-serif;
+    border-style: hidden;
+   
+}
+#ema,
+#fna,
+#pas {
+    padding: 10px;
+    margin: 10px auto;
+    position: absolute;
+}
+.cre {
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+    background-color: #1ba94c;
+    outline: none;
+    border: 1px solid #179342;
+    box-shadow: 1px 1px 10px 5px #b1acac;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    left: 140px;
+}
+.calog {
+    font-size: 170%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 0px red;
+}
+.already {
+    color: black;
+    position: relative;
+    left: 150px;
+    text-decoration: none;
+}
+.already:hover {
+    color: rgb(6, 6, 255);
+}
+.child {
+    height: 500px;
+    margin: 10px auto;
+}
+.ch {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    direction: rtl;
+    position: relative;
+    display: inline-block;
+    top:-200px;
+    left:150px;
+    font-size: 250%;
+}
+.video {
+    position: relative;
+}
+.vi {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    direction: rtl;
+    position: relative;
+    display: inline-block;
+    left: 900px;
+    font-size: 250%;
+    top: 250px;
+    
+}
+.video1 {
+    margin: 50px auto;
+}
+small {
+    color: white;
+    position: relative;
+    left: 600px;
+    top: 300px;
+    font-size: 120%;
+
+}
+.end {
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+table {
+    font-size: 150%;
+    color: white;
+    direction: rtl;
+    position: relative;
+    text-align: center;
+    left: 300px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    border-spacing: 0px;
+}
+table td{
+    padding: 10px;
+    background-color: dimgray;
+}
+caption {
+    font-size: 170%;
+    padding: 20px;
+} 
+.taend {
+    background-color: chocolate;
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+table thead td {
+    background-color: red;
+    font-weight: bold;
+}
+td {
+    border: 1px solid #ccc;
+}
