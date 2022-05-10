@@ -1,0 +1,569 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+::selection{
+    background-color: #e70634;
+    color: #080808;
+}
+
+/* Hide_Default_Scroll_Bar */
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Navigation */
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    max-width: 1400px;
+    margin: 0px;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.navigation .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 20px 10px;
+    z-index: 107;
+}
+
+.navigation .menu-icon .nav-icon {
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    width: 25px;
+    position: relative;
+    transition: background 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+/* Making_Home_Page_Responsive */
+
+@media(max-width: 1200px) {
+    #latest,
+    .slider-btns{
+        width: 90%;
+    }
+    
+    .menu li a{
+        margin: 0px;
+        font-size: 1.6rem;
+    }
+
+    .menu{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 824px) {
+    .navigation{
+        padding: 20px 10px;
+        width: 90%;
+    }
+
+    .logo,
+    footer .logo{
+        font-size: 1.3rem;
+    }
+
+    .post-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer{
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 530px) {
+    .navigation{
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 20px 0px;
+    }
+
+    .logo{
+        margin: 0px;
+    }
+
+    .search-box{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .menu li a:hover{
+        font-size: 1.8rem;
+    }
+
+    .post-container{
+        grid-gap: 15px;
+    }
+
+    .post-box{
+        height: 450px;
+    }
+
+    footer .copyright{
+        font-size: 0.8rem;
+    }
+
+    .fix-icon .menu-icon{
+        left: 10px;
+        top: 0px;
+        border-radius: 4px;
+    }
+}
+
+/* Movie_Page */
+
+/* Making_Movie_Page_Responsive */
+
+@media(max-width: 1000px){
+    .watch-btn{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 900px){
+    .screenshots,
+    .download-container{
+        width: 90%;
+    }
+}
+
+@media(max-width: 750px){
+    .play-btn-container{
+        margin-top: 50px;
+        display: flex;
+    }
+}
+
+@media(max-width: 600px){
+    .play-btn,
+    .play-btn a{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Details_Movie */
+
+
+/* Making_Movie_Page_Responsive */
+
+@media(max-width: 1000px){
+    .watch-btn{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 900px){
+    .screenshots,
+    .download-container{
+        width: 90%;
+    }
+}
+
+@media(max-width: 750px){
+    .banner-container{
+        grid-template-columns: 1fr;
+    }
+
+    .play-btn-container{
+        margin-top: 50px;
+        display: flex;
+    }
+}
+
+@media(max-width: 600px){
+    .movie-banner{
+        padding: 20px;
+    }
+
+    .download-box{
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+
+    .movie-title h1{
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+
+    .title-container{
+        justify-content: flex-start;
+    }
+
+    .more-about-movie span{
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .rating{
+        margin-bottom: -10px;
+    }
+
+    .title-bottom{
+        margin-top: 30px;
+    }
+
+    .play-btn,
+    .play-btn a{
+        width: 50px;
+        height: 50px;
+    }
+
+    .movie-details{
+        margin-top: 0px;
+    }
+
+    .screenshots strong{
+        font-size: 1.5rem;
+    }
+}
+
+/*Footer*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #161616;
+    color: #ffe7c8;
+    font-size: .9rem;
+    padding: 5rem;
+}
+
+
+
+
+
+
+
+
+
+::selection{
+    background-color: #e70634;
+    color: #080808;
+}
+
+/* Hide_Default_Scroll_Bar */
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Navigation */
+
+
+<!--Copyright-->
+<span class="copyright">
+    Copyright 2021 - 2022
+</span>
+
+
+footer .copyright {
+    color: #4d4d4d;
+    font-size: 0.9rem;
+}
+
+/* Download */
+
+.download-movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.download-container{
+    max-width: 10000px;
+    width: 100%;
+}
+
+.download-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(136, 136, 136, 0.06);
+}
+
+.download-box a,
+.download-box span{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2a2a2a52;
+    color: #d8d8d8;
+    letter-spacing: 1px;
+}
+
+.download-box span img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.download-box a{
+    color: #e70634;
+    transition: all ease 0.3s;
+}
+
+.download-box a:hover{
+    color: #c51e3f;
+    transition: all ease 0.3s;
+}
+
+
+
+<!-- Download -->
+        <section class="download-movie">
+            <!-- Container -->
+            <div class="download-container">
+                <!--Box-->
+                <div class="download-box">
+                    <span>
+                        <img src="../Images/Download_Icon/downloading (1).png" alt="Please Check Your Internet" title="Download_Icon">
+                        Download_Server_1
+                    </span>
+                    <span>English</span>
+                    <span>480p</span>
+                    <a href="../Videos/Full_Movie/Pirates.of.the.Caribbean.Dead.Men.Tell.No.Tales.2017.480p.BluRay.MyCima.ME.mp4" download>Download</a>
+                </div>
+                <!--Box-->
+                <div class="download-box">
+                    <span>
+                        <img src="../Images/Download_Icon/download (3).png" alt="Please Check Your Internet" title="Download_Icon">
+                        Download_Server_2
+                    </span>
+                    <span>English</span>
+                    <span>720p</span>
+                    <a href="../Videos/Full_Movie/Pirates.of.the.Caribbean.Dead.Men.Tell.No.Tales.2017.480p.BluRay.MyCima.ME.mp4" download>Download</a>
+                </div>
+                <!--Box-->
+                <div class="download-box">
+                    <span>
+                        <img src="../Images/Download_Icon/down-arrow.png" alt="Please Check Your Internet" title="Download_Icon">
+                        Download_Server_3
+                    </span>
+                    <span>English</span>
+                    <span>1080p</span>
+                    <a href="../Videos/Full_Movie/Pirates.of.the.Caribbean.Dead.Men.Tell.No.Tales.2017.480p.BluRay.MyCima.ME.mp4" download>Download</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        .rating{
+            font-size: 0.8rem;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+        
+        .rating-Text{
+            position: relative;
+            left: 50px;
+            font-size: 20px;
+            font-weight: monoton;
+            color: #fe7;
+            border: 1px solid #4d4d4d;
+            border-radius: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: #c51e3f;
+        }
+        
+        .container{
+            width: 250px;
+            background: #111;
+            padding: 7.5px 15px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .container .star input{
+            display: none;
+        }
+        
+        .star label{
+            font-size: 20px;
+            color: #444;
+            padding: 10px;
+            float: right;
+            transition: all 0.2s ease;
+        }
+        
+        input:not(:checked) ~ label:hover,
+        input:not(:checked) ~ label:hover ~ label
+        {
+            color: #fd4;
+        }
+        
+        input:checked ~ label{
+            color: #fd4;
+        }
+        
+        input#rate-5:checked ~ label{
+            color: #fe7;
+            text-shadow: 0px 0px 20px #952;
+        }
+
+        
+
+
+        <div class="rating-Text">Rating The Movie</div>
+                        <div class="container">
+                            <div class="star">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Title_Bottom -->
+                    <div class="title-bottom">
+                        <!-- Category -->
+                        <div class="category">
+                            <strong>Category</strong><br />
+                            <a href="#">Horror</a>
+                            <a href="#">Mistery</a>
+                            <a href="#">Thriller</a>
+                        </div>
+
+
+
+                        <!--Language-->
+                        <div class="language">
+                            <span>English</span>
+                        </div>
+
+
+                        .language{
+                            margin-top: 20px;
+                        }
+                        
+                        .language span{
+                            background-color: #dfdfdf0e;
+                            padding: 5px 10px;
+                            margin-right: 10px;
+                            color: #dfdfdf;
+                            font-size: 0.8rem;
+                        }
+
+                        
+
+
+                        .navigation .menu-icon .nav-icon::before,
+                        .navigation .menu-icon .nav-icon::after{
+                            background-color: #ffffffcc;
+                            content: '';
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            transition: all ease-out 0.2s;
+                        }
+                        
+                        .navigation .menu-icon .nav-icon::before{
+                            top: 8px;
+                        }
+                        
+                        .navigation .menu-icon .nav-icon::after{
+                            top: 8px;
+                        }
+                        
+                        .navigation .menu-button:checked ~ .menu-icon .nav-icon{
+                            background-color: transparent;
+                        }
+                        
+                        .navigation .menu-button:checked ~ .menu-icon .nav-icon::before{
+                            transform: rotate(-45deg);
+                            top: 0px;
+                        }
+                        
+                        .navigation .menu-button:checked ~ .menu-icon .nav-icon::after{
+                            transform: rotate(45deg);
+                            top: 0px;
+                        }
+                        
+                        .menu-button{
+                            display: none;
+                        }
+
+                        
+                        .navigation .menu-icon .nav-icon {
+                            background-color: #ffffff;
+                            display: block;
+                            height: 2px;
+                            width: 25px;
+                            position: relative;
+                            transition: background 0.2s ease-out;
+                        }
+                        
