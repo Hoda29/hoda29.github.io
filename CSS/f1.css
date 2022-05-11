@@ -4,6 +4,21 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+header{
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 40px 40px;    
+}
+header .logo{
+    max-width: 100px;
+}
+header .logo img{
+    max-width: 100%;
+}
+.navigation{
+    display: flex;
+}
 .navigation li{
     list-style: none;
     margin: 0 10px;
@@ -46,18 +61,6 @@
     transform: translateY(-50%);
     padding-right: #fff;
     border-right: 1px solid #fff;
-}
-header{
-    position: absolute;
-    top: 0;
-    display: flex;
-    padding: 40px 40px;    
-}
-header .logo{
-    max-width: 100px;
-}
-header .logo img{
-    max-width: 100%;
 }
 .banner{
     min-height: 100vh;
