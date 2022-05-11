@@ -7,11 +7,15 @@
 header{
     position: absolute;
     top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    padding: 40px 40px;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
 }
 header .logo{
-    max-width: 100px;
+    max-width: 80px;
 }
 header .logo img{
     max-width: 100%;
@@ -65,7 +69,7 @@ header .logo img{
 .banner{
     min-height: 100vh;
     padding: 40px 40px;
-    background:#000 url(../Media/3..jpg);
+    background:#000 url(3..jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -81,6 +85,12 @@ header .logo img{
     line-height: 28px;
     font-weight: 300;
     margin-bottom: 20px;
+}
+.content p{
+    color: #fff;
+    font-size: -128px;
+    line-height: 28px;
+    font-weight: 300;
 }
 .banner h4{
     margin-top: 30;
@@ -100,11 +110,23 @@ header .logo img{
     padding: 0 8px;
     margin: 20px 0 20px 0;
 }
-.content p{
+.banner .content .rating{
+    width: 80%;
+    margin: 20px 0;
+    color: white;
+}
+
+.banner .content .rating i{
+    color: #FFD700;
+    font-size: 20px;
+    margin-right: 6px;
+    
+}
+
+.banner .content .rating i.big{
     color: #fff;
-    font-size: -128px;
-    line-height: 28px;
-    font-weight: 300;
+    font-size: 50px;
+    margin-left: 30px;
 }
 .play{
     position: relative;
@@ -124,7 +146,6 @@ header .logo img{
     max-width: 50px;
     font-size: 32px;
 }
-
 .info{
     padding: 40px;
     align-items: center;
@@ -150,27 +171,9 @@ header .logo img{
 iframe{
     width: 597px;
     height: 336px;
-    transition: .3s;
     margin-top: 45px;
 }
-.banner .content .rating{
-    width: 80%;
-    margin: 20px 0;
-    color: white;
-}
 
-.banner .content .rating i{
-    color: #FFD700;
-    font-size: 20px;
-    margin-right: 6px;
-    
-}
-
-.banner .content .rating i.big{
-    color: #fff;
-    font-size: 50px;
-    margin-left: 30px;
-}
 .footer{
     background-color: #191e22;
     color: #6a5e71;
@@ -183,24 +186,6 @@ iframe{
 }
 .footer ul li{
     display: inline-block; 
-}
-.banner h4{
-    margin-top: 30;
-    color: rgba(255, 255, 2555,0.5);
-    font-weight: 500;
-}
-.banner h4 span{
-    padding: 0 10px;
-    border-right: 1px solid rgba(255, 255, 2555, 0.5);
-}
-.banner h4 span i{
-    background: red;
-    color: #fff;
-    display: inline-block;
-    font-style: normal;
-    border-radius: 2px;
-    padding: 0 8px;
-    margin: 20px 0 20px 0;
 }
 .content a:hover{
     color: red;
@@ -223,7 +208,7 @@ iframe{
 .more img{
     width: 200px;
     height: 115px;
-    object-fit: cover;
+    object-fit:cover;
     border: 2px solid #fff;
     cursor: pointer;
     margin: 0 10px;
