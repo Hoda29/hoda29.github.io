@@ -6,15 +6,15 @@ IMovieX offers users a fast, elegant, and responsive UI to browse and watch free
 
 ## 🌐 Live Demo
 
-👉 [Visit IMovieX Online]([IMovieX](https://hoda29.github.io/))  
-*(Replace this link with your actual deployment URL — GitHub Pages, Vercel, Netlify, etc.)*
+👉 [Visit IMovieX Online]
+  [IMovieX](https://hoda29.github.io/project.html)
 
 ---
 
 ## 📸 Preview
 
-![IMovieX Screenshot](screenshot.png)  
-*A modern, clean, and responsive movie streaming UI.*
+![IMovieX Screenshot]  
+![image](https://github.com/user-attachments/assets/eac3037f-fed8-47c7-9396-c199db1ab122)
 
 ---
 
